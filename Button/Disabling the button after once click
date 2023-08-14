@@ -1,0 +1,12 @@
+<!-- VFP -->
+<apex:commandButton id=""
+                    action="{!}" 
+                    value="" 
+                    styleClass="" 
+                    oncomplete="" 
+                    onclick=""/>         
+
+<!-- JS -->
+function disableButton(button) {
+  button.disabled = true;
+}
