@@ -1,0 +1,8 @@
+<!-- value 取出來後再建立一個var -->
+<apex:repeat value="{!child}" var="ticket">
+                    <tr style="color:#000; background-color:#fff; text-align:center;">
+                        <td style="border: 1px solid #000000; width: 15%;">
+                            <apex:outputText value="{!ticket.Name}" />
+                        </td>
+                    </tr>
+                </apex:repeat>
